@@ -1,0 +1,654 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/* HR CSS Starts */
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.header-icon a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.header-icon a i {
+  margin-right: 4px;
+  color: #007bff;
+}
+
+.social-media a {
+  margin-left: 5px;
+  margin-right: 6px;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .icon {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+}
+/* HR CSS Ends */
+
+/* Header CSS Starts */
+header .container {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  margin-left: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.logo img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+nav .link {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav .link li a,
+.dropdown > a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+nav .link li a:hover,
+.dropdown > a:hover {
+  color: #f6a308;
+}
+
+.dropdown-menu {
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  z-index: 999;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f0f0f0;
+  color: #51ecbd;
+}
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+/* Header CSS Ends */
+
+/* hero-container Starts CSS */
+.hero-container {
+  height: 77vh;
+  background-image: url(../Images/images-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-container h4 {
+  font-size: 29px;
+  margin-bottom: 10px;
+  padding-right: 800px;
+  padding-top: 40px;
+  color: #f60404;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.hero-container h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  padding-right: 800px;
+  padding-top: 5px;
+  color: #f0f0f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.hero-container .findbtn,
+.hero-container .appointbtn {
+  margin-right: 800px;
+  padding: 10px 60px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.findbtn {
+  background-color: #51ecbd;
+  color: #000;
+}
+
+.findbtn:hover {
+  background-color: #f7f7f7;
+}
+
+.appointbtn {
+  background-color: lightsalmon;
+  border: 2px solid #fff;
+  color: #ff0000;
+}
+
+.appointbtn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* hero-container Ends CSS */
+
+/* About us Starts CSS */
+#about .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px;
+  gap: 50px;
+}
+
+#about .content > img {
+  flex: 1 1 30%;
+  max-width: 50%;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about .text-block {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about .text-block h3 {
+  color: #51ecbd;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#about .text-block h2 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fe8f07;
+  margin: 5px 0;
+  line-height: 1.3;
+}
+
+#about .text-block p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 20px;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+#about .text-block img {
+  margin-top: 20px;
+  max-width: 600px;
+  width: 120%;
+  height: 170px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  #about .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about .text-block {
+    align-items: center;
+  }
+
+  #about .text-block h2 {
+    font-size: 28px;
+  }
+
+  #about .text-block p {
+    text-align: justify;
+  }
+}
+/* About us Ends CSS */
+
+/* Services Starts CSS */
+#services {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#services h2:first-of-type {
+  color: #0bf5e9;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+#services h2:nth-of-type(2) {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #000000;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#services h3:first-of-type {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.card-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+  font-size: 36px;
+  color: #51ecbd;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  color: #000000;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.card p {
+  font-size: 11px;
+  color: #000000;
+  line-height: 1.6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+/* Services Ends CSS */
+
+/* Section-4 CSS Starts */
+#section4 {
+  background-color: #f4f9ff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  margin-top: 40px;
+}
+
+#section4 .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section4 h2 {
+  color: #007bff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#section4 h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#section4 p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.findbtn,
+.readbtn {
+  padding: 12px 24px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.findbtn {
+  background-color: #007bff;
+  color: white;
+}
+
+.readbtn {
+  background-color: #f8f9fa;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.findbtn:hover,
+.readbtn:hover {
+  opacity: 0.9;
+}
+
+#section4 .form {
+  margin-top: 50px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section4 .form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+#section4 form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#section4 select,
+#section4 input[type="text"],
+#section4 input[type="email"],
+#section4 input[type="date"],
+#section4 input[type="time"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#section4 button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#section4 button[type="submit"]:hover {
+  background-color: #218838;
+}
+/* Section-4 CSS Ends */
+
+/* slider CSS Starts */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(246, 9, 9, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(4%);
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+/* slider CSS Ends */
+
+/* Footer CSS Starts */
+#footer {
+  background-color: #1e1e2f;
+  color: #000000;
+  padding: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 18px;
+}
+
+.footer .icon {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.footer .para5,
+.footer .para6 {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer input[type="email"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.footer iframe {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+
+.quick-link {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-link a {
+  color: #f80606;
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.quick-link a:hover {
+  color: #00bcd4;
+}
+
+.Essential-Services {
+  margin-top: 20px;
+}
+
+.Essential-Services h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #010707;
+}
+
+.Essential-Services a {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  color: #050505;
+  font-size: 13px;
+}
+
+.Essential-Services a:hover {
+  color: #00bcd4;
+}
+
+.Essential-Services button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: #f67f08;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Essential-Services button:hover {
+  background-color: #0194a0;
+}
+
+.Connect-Medinova {
+  margin-top: 20px;
+}
+
+.Connect-Medinova a {
+  margin-right: 15px;
+  color: #e40909;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.Connect-Medinova a:hover {
+  color: #00bcd4;
+}
+
+@media (max-width: 768px) {
+  .footer .icon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer iframe {
+    height: 200px;
+  }
+}
+
+/* Footer CSS Ends */
