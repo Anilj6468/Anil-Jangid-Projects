@@ -76,6 +76,16 @@
     margin-bottom: 5px;
     padding-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+    #header h2 {
+        text-align: center;
+    }
+
+    #header a p {
+        font-size: 0.95rem;
+    }
+}
 /* Header Ends */
 
 /* About us Starts */
@@ -92,7 +102,7 @@
 .content h2{
     color: red;
     font-family: 'Times New Roman', Times, serif;
-    margin: 10px 80px;
+    margin: 7px 78px;
     font-size: 35px;
 }
 .content .para{
@@ -132,6 +142,16 @@
     color: blue;
     transition: 0.3s ease-in-out;
 }
+
+@media (max-width: 600px) {
+    #about h2 {
+        text-align: center;
+    }
+
+    #about a p {
+        font-size: 0.95rem;
+    }
+}
 /* About us Ends */
 
 /* Services Starts CSS */
@@ -142,8 +162,8 @@
 }
 
 #services h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
+    font-size: 32px;
+    margin-bottom: 30px;
     color: #333;
 }
 
@@ -197,6 +217,16 @@
 #services .box button:hover {
     background-color: #005ecc;
 }
+
+@media (max-width: 600px) {
+    #services h2 {
+        text-align: center;
+    }
+
+    #services a p {
+        font-size: 0.95rem;
+    }
+}
 /* Services Ends CSS */
 
 /* Gallery Css Starts */
@@ -209,15 +239,13 @@ body {
 #gallery {
   padding: 40px 20px;
   text-align: center;
-  margin-top: 30px;
-  padding-top: 40px;
 }
 
 #gallery h2 {
   color: rgb(249, 179, 3);
   font-size: 32px;
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   display: inline-block;
 }
 
@@ -241,4 +269,76 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 600px) {
+    #gallery h2 {
+        text-align: center;
+    }
+
+    #gallery a p {
+        font-size: 0.95rem;
+    }
+}
+
 /* Gallery Css Ends */
+
+/* Blog Css Starts */
+#projects {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+}
+
+#projects a {
+    display: block;
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#projects a:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+#projects a p {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 15px;
+    color: #222;
+    margin: 0;
+}
+
+#projects a img {
+    width: 100%;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    #projects h2 {
+        text-align: center;
+    }
+
+    #projects a p {
+        font-size: 0.95rem;
+    }
+}
+/* Blog Css Ends */
