@@ -50,7 +50,7 @@
     position: absolute;
     top: 0;
     right: 10%;
-    margin-top: 46px;
+    margin-top: 38px;
     padding: 10px 20px;
     border: none;
     background: #E95713;
@@ -59,12 +59,13 @@
     font-size: 9px;
     cursor: pointer;
     font-weight: 400;
-    transition: 0.3s;
+    transition: 4s ease;
 }
 
 #header > button:hover{
     color: #000000;
     background-color: #ffffff;
+    margin-top: 1px;
 }
 
 .container {
@@ -127,14 +128,14 @@ button {
 {
     width: 70%;
     height: 360px;
-    margin-top: 42px;
-    margin-left: 79px;
+    margin-top: 37px;
+    margin-left: 92px;
 }
 #about .para2{
     text-align: center;
-    margin-left: 200px;
+    margin-left: 212px;
     color: #E95713;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
     top: 0;
@@ -142,7 +143,7 @@ button {
 }
 #about h3{
     text-align: center;
-    margin-left: 200px;
+    margin-left: 212px;
     font-size: 20px;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
@@ -206,7 +207,7 @@ button {
     z-index: 100;
     color: white;
     margin-bottom: 20px;
-    transition: 0.4s ease;
+    transition: 1s ease;
 }
 #section3 button:hover
 {
@@ -214,3 +215,205 @@ button {
     color: #000000;
 }
 /* Section3 CSS Ends */
+
+/* section4 Css Starts */
+#section4
+{
+    width: 60%;
+    margin-top: 69px;
+    margin-left: 85px;
+}
+/* section4 Css Ends */
+
+/* section5 Css Starts */
+#section5
+{
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+}
+#section5 h4
+{
+        text-align: center;
+        color: #062C4F;
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+}
+#section5 .para5{
+    font-size: 13px;
+    text-align: center;
+    color: #252628;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4rem;
+    margin-top: 25px;
+}
+/* section5 Css Ends */
+
+/* section-6 Starts CSS */
+#section6
+{
+    margin-top: 53px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#section6 .content p
+{
+    color: #E95713;
+    padding: 4px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    top: 0;
+    left: 0;
+    margin-left: 4px;
+    margin-top: 9px;
+}
+#section6 .content h4
+{
+    color: #062C4F;
+    padding: 4px 0px;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    top: 0;
+    left: 0;
+    margin-left: 4px;
+    margin-top: 9px;
+}
+#section6 .content .para6
+{
+    color: #252628;
+    padding: 4px 6px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    top: 0;
+    left: 0;
+    margin-left: 4px;
+    margin-bottom: 20px;
+}
+#section6 .image 
+{
+        width: 750px;
+        margin-right: 280px;
+        max-width: 300px;
+        margin-top: 35px;
+}
+#section6 button
+{
+    margin-left: 10px;
+    margin-top: 12px;
+    padding: 4px 58px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.3s 0.5s ease;
+}
+#section6 button:hover
+{
+    background-color: lightcoral;
+    color: black;
+}
+/* section-6 Ends CSS */
+
+/* section-7 Starts CSS */
+#section7 {
+    height: 82vh;
+    margin-top: 55px;
+    margin-left: 32px;
+    
+}
+#section7 .gallery
+{
+    width: 50px;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-left: 53px;
+    margin-top: 17px;
+}
+#section7 .content
+{
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+#section7 .content p{
+    font-size: 12px;
+    color: #E95713;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-bottom: 2px;
+}
+#section7 .content h3{
+    font-size: 32px;
+    color: #062C4F;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-bottom: 2px;
+}
+/* section-7 Ends CSS */
+
+/* section-8 Starts CSS */
+#section8 {
+    background-color: #062C4F;
+    width: 100%;
+    height: 400px;
+    margin-top: 55px;
+}
+#section8 .text-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    padding: 10px 10px;
+    top: 0;
+}
+#section8 .image{
+    width: 1290px;
+    margin-left: 62px;
+    padding-top: 13px;
+}
+#section8 .content .para8
+{
+    padding-top: 18px;
+    color: #E95713;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-left: 3px;
+}
+#section8 .content h4
+{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 3px;
+}
+#section8 .content p
+{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-left: 3px;
+}
+/* section-8 Starts EndS */
