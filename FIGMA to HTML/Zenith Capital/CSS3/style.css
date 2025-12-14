@@ -219,9 +219,9 @@ button {
 /* section4 Css Starts */
 #section4
 {
-    width: 60%;
+    width: 100%;
     margin-top: 69px;
-    margin-left: 85px;
+    background-color: #062C4F;
 }
 /* section4 Css Ends */
 
@@ -415,5 +415,78 @@ button {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin-left: 3px;
+    margin-top: 5px;
+}
+#section8 button
+{
+    padding: 2px 39px;
+    margin-top: 18px;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    z-index: 1;
+    transition: 0.4s ease;
+}
+#section8 button:hover{
+    background-color: lightcoral;
+    color: white;
 }
 /* section-8 Starts EndS */
+
+/* section-9 Starts CSS */
+#section9
+{
+    background-color: #062C4F;
+    height: 155px;
+    margin-top: 60px;
+    width: 100%;
+}
+#section9 .text-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 30px;
+    margin: 25px 30px;
+    gap: 50px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+#section9 .content h4 
+{
+    color: white;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 9px;
+}
+#section9 .content p
+{
+    color: white;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+#section9 .content1 [input]
+{
+    padding: 1px 19px;
+    text-align: left;
+    border-radius: 8px;
+    padding-top: 9px;
+}
+#section9 .content1 button
+{
+    border-radius: 5px;
+    padding: 1px 35px;
+    margin-left: 6px;
+    margin-top: 9px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: 0.4s ease;
+}
+#section9 .content1 button:hover{
+    background-color: lightcoral;
+    color: rgb(17, 17, 17);
+}
+/* section-9 Ends CSS */
